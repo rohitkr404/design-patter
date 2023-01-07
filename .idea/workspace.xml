@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="adding example of singleton pattern">
-      <change afterPath="$PROJECT_DIR$/src/builder/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -36,20 +32,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/LearningJAVA/stack/src/ObjectCloningExample&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.builder.client">
-    <configuration name="Singleton.EagerLoading.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.EagerLoading.client" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\LearningJAVA\stack\src\ObjectCloningExample" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prototype.Client" />
       <module name="stack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Singleton.EagerLoading.*" />
+          <option name="PATTERN" value="prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.client" />
+    <configuration name="ObjectCloningExample.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectCloningExample.Client" />
       <module name="stack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Singleton.*" />
+          <option name="PATTERN" value="ObjectCloningExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ObjectCloningExample.Client" />
         <item itemvalue="Application.builder.client" />
         <item itemvalue="Application.Singleton.doubleCheckLoading.client" />
         <item itemvalue="Application.Singleton.singleThreaded.client" />
-        <item itemvalue="Application.Singleton.EagerLoading.client" />
-        <item itemvalue="Application.Singleton.client" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673071610277</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding example of Builder pattern">
+      <created>1673089634336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673089634336</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changes">
+      <created>1673104197376</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104197376</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +183,24 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="adding example of decorator pattern" />
     <MESSAGE value="adding example of singleton pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding example of singleton pattern" />
+    <MESSAGE value="adding example of Builder pattern" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ObjectCloningExample/Client.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prototype/Client.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
