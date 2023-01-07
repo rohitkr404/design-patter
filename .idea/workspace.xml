@@ -5,25 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="adding example of decorator pattern">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/BasePizzas/BBQChicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/BasePizzas/Farmhouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/BasePizzas/Margherita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/BasePizzas/Pepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Problem statement" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Toppings/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Toppings/Olive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Toppings/Paneer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Toppings/Tomato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/EagerLoading/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/EagerLoading/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/doubleCheckLoading/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/doubleCheckLoading/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/singleThreaded/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/singleThreaded/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +50,59 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Singleton.doubleCheckLoading.client">
+    <configuration name="Singleton.EagerLoading.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.EagerLoading.client" />
+      <module name="stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.EagerLoading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.client" />
+      <module name="stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton.doubleCheckLoading.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.doubleCheckLoading.client" />
+      <module name="stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.doubleCheckLoading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton.singleThreaded.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.singleThreaded.client" />
+      <module name="stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.singleThreaded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Decorator.client" />
       <module name="stack" />
@@ -75,6 +118,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Singleton.doubleCheckLoading.client" />
+        <item itemvalue="Application.Singleton.singleThreaded.client" />
+        <item itemvalue="Application.Singleton.EagerLoading.client" />
+        <item itemvalue="Application.Singleton.client" />
         <item itemvalue="Application.client" />
       </list>
     </recent_temporary>
@@ -95,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673021850769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding example of decorator pattern">
+      <created>1673064124409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673064124409</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
