@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="adding example of Object cloning, Prototype and Register pattern">
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/AndroidFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/Flutter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/IOSFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/SupportedPlatform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/UIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/UIFactoryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractFactory/client.java" afterDir="false" />
+    <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="adding example of abstract factory pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/AndroidFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/AndroidFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/IOSFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/IOSFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/UIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/UIFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/components/buttons/AndroidButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/components/buttons/AndroidButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/components/buttons/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/components/buttons/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/components/buttons/IOSButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/components/buttons/IOSButton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673104673354</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding example of abstract factory pattern">
+      <created>1673149514836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673149514836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +222,8 @@
     <MESSAGE value="adding example of Builder pattern" />
     <MESSAGE value="changes" />
     <MESSAGE value="adding example of Object cloning, Prototype and Register pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding example of Object cloning, Prototype and Register pattern" />
+    <MESSAGE value="adding example of abstract factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding example of abstract factory pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
