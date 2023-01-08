@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="changes" />
+    <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="adding example of abstract factory pattern">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/AndroidFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/AndroidFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/IOSFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/IOSFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/UIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/UIFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/components/buttons/AndroidButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/components/buttons/AndroidButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/components/buttons/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/components/buttons/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractFactory/components/buttons/IOSButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactory/components/buttons/IOSButton.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,7 +55,7 @@
       <recent name="C:\LearningJAVA\stack\src\ObjectCloningExample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="prototype.Client" />
       <module name="stack" />
@@ -85,19 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton.singleThreaded.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.singleThreaded.client" />
-      <module name="stack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Singleton.singleThreaded.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="builder.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builder.client" />
       <module name="stack" />
@@ -111,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractFactory.client" />
+      <module name="stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.ObjectCloningExample.Client" />
         <item itemvalue="Application.builder.client" />
         <item itemvalue="Application.Singleton.doubleCheckLoading.client" />
-        <item itemvalue="Application.Singleton.singleThreaded.client" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673104197376</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding example of Object cloning, Prototype and Register pattern">
+      <created>1673104673354</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104673354</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding example of abstract factory pattern">
+      <created>1673149514836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673149514836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +197,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -185,7 +221,9 @@
     <MESSAGE value="adding example of singleton pattern" />
     <MESSAGE value="adding example of Builder pattern" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="adding example of Object cloning, Prototype and Register pattern" />
+    <MESSAGE value="adding example of abstract factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding example of abstract factory pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
