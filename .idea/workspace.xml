@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="adding respective notes">
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Decorator_and_Flyweight_Design_Pattern notes.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/BikePathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/CarPathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/GoogleMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/PathCalculatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/PathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/WalkPathCalculatorStrategy.java" afterDir="false" />
+    <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="adding startegy pattern">
+      <change afterPath="$PROJECT_DIR$/src/observer/AnalyticsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Flipkart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/InvoiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/OrderCancelledSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/OrderPlacedSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/ReturnData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <recent name="C:\LearningJAVA\stack\src\abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.client">
+  <component name="RunManager" selected="Application.observer.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="prototype.Client" />
       <module name="stack" />
@@ -79,19 +80,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ObjectCloningExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Singleton.doubleCheckLoading.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.doubleCheckLoading.client" />
-      <module name="stack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Singleton.doubleCheckLoading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="observer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.Client" />
+      <module name="stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.observer.Client" />
         <item itemvalue="Application.client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.ObjectCloningExample.Client" />
         <item itemvalue="Application.builder.client" />
-        <item itemvalue="Application.Singleton.doubleCheckLoading.client" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673154996598</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding startegy pattern">
+      <created>1673170375928</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673170375928</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +258,8 @@
     <MESSAGE value="adding example of abstract factory pattern" />
     <MESSAGE value="adding example of adapter pattern" />
     <MESSAGE value="adding respective notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding respective notes" />
+    <MESSAGE value="adding startegy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding startegy pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
