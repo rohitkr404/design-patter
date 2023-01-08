@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="adding example of adapter pattern" />
+    <list default="true" id="c7e0af50-16b9-4b1f-a8f8-c0d51094df0b" name="Changes" comment="adding respective notes">
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Decorator_and_Flyweight_Design_Pattern notes.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/BikePathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/CarPathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/GoogleMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/PathCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/PathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/WalkPathCalculatorStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,13 +47,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/LearningJAVA/stack/src/adapter"
+    "last_opened_file_path": "C:/LearningJAVA/stack/src/Decorator"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\LearningJAVA\stack\src\adapter" />
-      <recent name="C:\LearningJAVA\stack\src\ObjectCloningExample" />
+      <recent name="C:\LearningJAVA\stack\src\Decorator" />
+      <recent name="C:\LearningJAVA\stack\src\Singleton" />
+      <recent name="C:\LearningJAVA\stack\src\builder" />
+      <recent name="C:\LearningJAVA\stack\src\prototype" />
+      <recent name="C:\LearningJAVA\stack\src\abstractFactory" />
     </key>
   </component>
   <component name="RunManager" selected="Application.client">
@@ -195,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673154389385</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding respective notes">
+      <created>1673154996598</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673154996598</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +249,8 @@
     <MESSAGE value="adding example of Object cloning, Prototype and Register pattern" />
     <MESSAGE value="adding example of abstract factory pattern" />
     <MESSAGE value="adding example of adapter pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding example of adapter pattern" />
+    <MESSAGE value="adding respective notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding respective notes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
